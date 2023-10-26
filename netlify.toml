@@ -1,0 +1,26 @@
+[build]
+  publish = "public"
+  command = "hugo --gc --minify"
+
+[context.production.environment]
+  HUGO_VERSION = "0.111.2"
+
+[context.deploy-preview.environment]
+  HUGO_VERSION = "0.111.2"
+
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, s-max-age=604800"
+[[headers]]
+  for = "/css/*.css"
+  [headers.values]
+    Cache-Control = "public, s-max-age=604800"
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, s-max-age=604800"
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, s-max-age=604800"
