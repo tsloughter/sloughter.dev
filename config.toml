@@ -51,13 +51,13 @@ enableInlineShortcodes = true
     url = "https://twitter.com/t_sloughter"
 
 
-# [menu]
+[menu]
 
-#   [[menu.main]]
-#     identifier = "uses"
-#     name = "uses"
-#     url = "/uses/"
-#     weight = 10
+  [[menu.main]]
+    identifier = "uses"
+    name = "uses"
+    url = "/uses/"
+    weight = 10
 
 [markup]
   [markup.goldmark]
