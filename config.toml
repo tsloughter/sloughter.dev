@@ -22,8 +22,8 @@ enableInlineShortcodes = true
     title = "Tristan Sloughter"
     subtitle = "Erlang and OpenTelemetry Accessories"
     imageUrl = "https://en.gravatar.com/userimage/143547863/c184a87cce81f183b54b5c1e1a8e5f37.jpg?size=500"
-    imageWidth = 120
-    imageHeight = 120
+    imageWidth = 220
+    imageHeight = 220
     imageTitle = "Winnie"
 
   [[params.profileMode.buttons]]
