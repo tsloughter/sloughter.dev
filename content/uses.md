@@ -86,7 +86,7 @@ Things I use less because I tend to work from my laptop:
 
 Programming specific:
 
-* **[erlup](https://github.com/tsloughter/erlup)**: I created this tool in part as a
+* **[beamup](https://tsloughter.github.io/beamup/)**: I created this tool in part as a
   way to learn Rust and because I preferred the, now unmaintained,
   [erln8](https://github.com/metadave/erln8) way of handling switching versions
   by routing all calls through a single binary.
